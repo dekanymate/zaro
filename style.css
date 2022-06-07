@@ -1,0 +1,55 @@
+main{
+    background-color: black;
+    color: white;
+    text-align: justify;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "h"
+                        "n"
+                        "ar"
+                        "f";
+}
+
+header {
+    background-image: url("kepek/stageelement.MQ6.0.20220512142500.jpg");
+    grid-template: h;
+}
+
+article{
+    grid-area: ar;
+}
+
+nav {
+    grid-area: n;
+    background-color: lightgray;
+}
+
+footer{
+    grid-area: f;
+    text-align: center;
+    background-color: gray;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+img{
+    max-width: 300px;
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        max-width: 400px;
+    }
+    nav li {
+        list-style-type: none;
+        display: block;
+    }
+  }

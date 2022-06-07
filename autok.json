@@ -1,0 +1,32 @@
+{
+    "autok": [
+        {
+            "marka": "Mercedes-Benz",
+            "evjarat": "2018",
+            "hengerurtartalom": "2000",
+            "szin": "fekete",
+            "kep": "kepek/mercedes.jpg"
+        },
+        {
+            "marka": "Opel",
+            "evjarat": "2012",
+            "hengerurtartalom": "1400",
+            "szin": "ezüst",
+            "kep": "kepek/opel.jpg"
+        },
+        {
+            "marka": "BMW",
+            "evjarat": "2020",
+            "hengerurtartalom": "3000",
+            "szin": "kék",
+            "kep": "kepek/bmw.jpg"
+        },
+        {
+            "marka": "Audi",
+            "evjarat": "2011",
+            "hengerurtartalom": "1800",
+            "szin": "piros",
+            "kep": "kepek/audi.jpg"
+        }
+    ]
+}
